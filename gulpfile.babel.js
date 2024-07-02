@@ -209,6 +209,7 @@ const file_management = (watcher_target, src_path, dist_path) => {
 		// 위 파일 외 삭제
 		else{
 			const destFilePath = path.resolve(dist_path, filePathFromSrc);
+			console.log(destFilePath);
 			del.sync(destFilePath);
 		}
 	});
