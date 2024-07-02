@@ -1,0 +1,24 @@
+@charset 'utf-8';
+
+// 기본
+@import './base/_typography.scss';
+@import './base/_reset.scss';
+
+// 유틸
+@import './utils/_variable.scss';
+@import './utils/_helper.scss';
+
+// 레이아웃
+@import './layout/_wrap.scss';
+@import './layout/_header.scss';
+@import './layout/_nav.scss';
+@import './layout/_footer.scss';
+
+// 컴포넌트
+@import './components/_tabs.scss';
+@import './components/_popup.scss';
+
+// 페이지
+@import './pages/_main.scss';
+
+// 라이브러리

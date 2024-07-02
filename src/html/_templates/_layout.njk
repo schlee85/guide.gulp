@@ -1,0 +1,29 @@
+{#- include 사용자 정의 함수 -#}
+{%- import './_macro/_include.njk' as macro -%}
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="/css/ui.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="wrap">
+	{{ macro.include("_templates/_include/_header.njk") | tabIndent(1) }}
+
+	<main class="container">
+		{% block content %}
+		{% endblock %}
+	</main>
+
+	{{ macro.include("_templates/_include/_footer.njk") | tabIndent(1) }}
+</div>
+
+<script src="/js/lib/jquery-3.7.1.min.js"></script>
+<script src="/js/lib/swiper-11.1.4.min.js"></script>
+<script src="/js/ui.min.js"></script>
+</body>
+</html>
