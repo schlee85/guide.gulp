@@ -17,7 +17,7 @@
 | 이름 | 버전 | 비고 |
 |---|---|---|
 | EditorConfig for VS Code | v0.16.4 | 환경설정 |
-| Nunjucks Template | v0.5.1 | HTML 도구 |
+| Nunjucks | v0.3.1 | Nunjucks 하이라이트, 스니펫 |
 
 ## 🤔 사용된 패키지
 
@@ -48,7 +48,7 @@
 | `gulp-imagemin` | v7.1.0 | 이미지 최적화 (최신버전 ESM 이슈로 하위 버전 사용) |
 | `gulp-newer` | v1.4.0 | 변경된 파일 감지 |
 
-## 참고사항
+## 🤔 참고사항
 
 - `gulp-imagemin` 의 경우, 애플 M1칩 이상은 rosetta2 설치 필요.
 - 폴더 삭제는 실시간 반영 안됨.
